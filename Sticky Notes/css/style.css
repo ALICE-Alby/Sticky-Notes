@@ -1,0 +1,53 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    background:#c68c53a8;
+    font-family:Bahnschrift SemiLight;
+}
+h1{
+    text-align: center;
+    font-size:50px ;
+}
+.main{
+    width:95%;
+    margin:auto;
+}
+.container1{
+    margin-left:1%;
+    margin-bottom:2% ;
+}
+.container2{
+    display:flex;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+    margin-top:20px;
+    margin-left:5%;
+}
+.container3{
+    display: none;
+    position:absolute;
+    top:20%;
+    left:40%;
+}
+textarea{
+    box-shadow:10px 10px 20px 0px gray;
+    outline: none;
+    border:hidden;
+    width: 270px;
+    height:270px;
+    padding:45px 25px 10px 15px;
+}
+
+#save{
+    position: absolute;
+    right: 17%;
+    top:4%; 
+}
+#close{
+    position: absolute;
+    right:5%;
+    top:4%; 
+}
